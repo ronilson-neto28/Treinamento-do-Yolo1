@@ -1,8 +1,8 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: lixoPraia.yaml
-epochs: 30
+data: treinando_yolov8/lixoPraia.yaml
+epochs: 5
 time: null
 patience: 100
 batch: 16
